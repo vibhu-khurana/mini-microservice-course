@@ -1,6 +1,12 @@
 // @ts-nocheck
 import React from 'react';
+import PostCreate from './PostCreate';
 
 export default () => {
-  return <div>It's time to build react app</div>;
+  return (
+    <div className='container'>
+      <h1>Create Post</h1>
+      <PostCreate />
+    </div>
+  );
 };
